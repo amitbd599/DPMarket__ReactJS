@@ -53,7 +53,7 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-           dots: false,
+          dots: false,
         },
       },
     ],
@@ -70,7 +70,7 @@ const Testimonial = () => {
           <div className="section-heading__inner w-lg">
             <h3 className="section-heading__title">Clients Feedback</h3>
           </div>
-          <Link scroll={false} to="#" className="btn btn-main btn-lg pill">
+          <Link to="#" className="btn btn-main btn-lg pill">
             More Feedback
           </Link>
         </div>

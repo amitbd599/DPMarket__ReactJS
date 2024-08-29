@@ -30,10 +30,10 @@ const Register = () => {
         <div className="account__right padding-t-120 flx-align">
           <div className="dark-light-mode">
             {/* Light Dark Mode */}
-           <ThemeToggle />
+            <ThemeToggle />
           </div>
           <div className="account-content">
-            <Link scroll={false} to="/" className="logo mb-64">
+            <Link to="/" className="logo mb-64">
               <img
                 src="assets/images/logo/logo.png"
                 alt=""
@@ -150,7 +150,7 @@ const Register = () => {
                   <div className="have-account">
                     <p className="text font-14">
                       Already a member?{" "}
-                      <Link scroll={false}
+                      <Link
                         className="link text-main text-decoration-underline  fw-500"
                         to="/login"
                       >

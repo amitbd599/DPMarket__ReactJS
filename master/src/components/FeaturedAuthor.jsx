@@ -6,7 +6,7 @@ const FeaturedAuthor = () => {
 
   useEffect(() => {
     const text = textRef.current;
-    
+
     if (text) {
       text.innerHTML = text.innerText
         .split("")
@@ -65,7 +65,7 @@ const FeaturedAuthor = () => {
                 </div>
               </div>
               <div className="flx-align gap-2 mt-48">
-                <Link scroll={false}
+                <Link
                   to="/profile"
                   className="btn btn-main btn-lg pill fw-300"
                 >
@@ -87,14 +87,14 @@ const FeaturedAuthor = () => {
                   <img src="assets/images/icons/featured-badge.png" alt="" />
                 </div>
                 <div className="circle__text" ref={textRef}>
-                     <p>DP marketer Top Featured Author</p>
+                  <p>DP marketer Top Featured Author</p>
                 </div>
               </div>
               <div className="row gy-4 card-wrapper">
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <Link scroll={false} to="/product-details" className="link w-100">
+                      <Link to="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img9.png"
                           alt=""
@@ -107,14 +107,14 @@ const FeaturedAuthor = () => {
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <Link scroll={false} to="/product-details" className="link">
+                        <Link to="/product-details" className="link">
                           SaaS dashboard digital products Title here
                         </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <Link scroll={false}
+                          <Link
                             to="/profile"
                             className="link hover-text-decoration-underline"
                           >
@@ -156,7 +156,7 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <Link scroll={false}
+                        <Link
                           to="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
@@ -169,7 +169,7 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <Link scroll={false} to="/product-details" className="link w-100">
+                      <Link to="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img10.png"
                           alt=""
@@ -182,14 +182,14 @@ const FeaturedAuthor = () => {
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <Link scroll={false} to="/product-details" className="link">
+                        <Link to="/product-details" className="link">
                           SaaS dashboard digital products Title here
                         </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <Link scroll={false}
+                          <Link
                             to="/profile"
                             className="link hover-text-decoration-underline"
                           >
@@ -231,7 +231,7 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <Link scroll={false}
+                        <Link
                           to="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
@@ -244,7 +244,7 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <Link scroll={false} to="/product-details" className="link w-100">
+                      <Link to="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img11.png"
                           alt=""
@@ -257,14 +257,14 @@ const FeaturedAuthor = () => {
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <Link scroll={false} to="/product-details" className="link">
+                        <Link to="/product-details" className="link">
                           SaaS dashboard digital products Title here
                         </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <Link scroll={false}
+                          <Link
                             to="/profile"
                             className="link hover-text-decoration-underline"
                           >
@@ -306,7 +306,7 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <Link scroll={false}
+                        <Link
                           to="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >
@@ -319,7 +319,7 @@ const FeaturedAuthor = () => {
                 <div className="col-sm-6">
                   <div className="product-item box-shadow">
                     <div className="product-item__thumb d-flex">
-                      <Link scroll={false} to="/product-details" className="link w-100">
+                      <Link to="/product-details" className="link w-100">
                         <img
                           src="assets/images/thumbs/product-img4.png"
                           alt=""
@@ -332,14 +332,14 @@ const FeaturedAuthor = () => {
                     </div>
                     <div className="product-item__content">
                       <h6 className="product-item__title">
-                        <Link scroll={false} to="/product-details" className="link">
+                        <Link to="/product-details" className="link">
                           SaaS dashboard digital products Title here
                         </Link>
                       </h6>
                       <div className="product-item__info flx-between gap-2">
                         <span className="product-item__author">
                           by
-                          <Link scroll={false}
+                          <Link
                             to="/profile"
                             className="link hover-text-decoration-underline"
                           >
@@ -381,7 +381,7 @@ const FeaturedAuthor = () => {
                             </span>
                           </div>
                         </div>
-                        <Link scroll={false}
+                        <Link
                           to="/product-details"
                           className="btn btn-outline-light btn-sm pill"
                         >

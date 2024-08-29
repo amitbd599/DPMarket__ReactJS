@@ -97,7 +97,7 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
@@ -180,7 +180,7 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
@@ -263,7 +263,7 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
@@ -356,7 +356,7 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
@@ -439,7 +439,7 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >
@@ -522,7 +522,7 @@ const PricingOne = () => {
                     <p className="pricing-item__desc">
                       Essential services to start your journey
                     </p>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="btn btn-outline-light btn-lg pill w-100"
                     >

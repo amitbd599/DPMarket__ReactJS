@@ -33,7 +33,7 @@ const Login = () => {
             <ThemeToggle />
           </div>
           <div className="account-content">
-            <Link scroll={false} to="/" className="logo mb-64">
+            <Link to="/" className="logo mb-64">
               <img
                 src="assets/images/logo/logo.png"
                 alt=""
@@ -107,7 +107,7 @@ const Login = () => {
                         Keep me signed in
                       </label>
                     </div>
-                    <Link scroll={false}
+                    <Link
                       to="#"
                       className="forgot-password text-decoration-underline text-main text-poppins font-14"
                     >
@@ -139,7 +139,7 @@ const Login = () => {
                   <div className="have-account">
                     <p className="text font-14">
                       New to the market?{" "}
-                      <Link scroll={false}
+                      <Link
                         className="link text-main text-decoration-underline fw-500"
                         to="/register"
                       >

@@ -1,15 +1,12 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
 import HeaderOne from "../components/HeaderOne";
-import Breadcrumb from "../components/Breadcrumb";
-import AllProduct from "../components/AllProduct";
-import ResourceOne from "../components/ResourceOne";
+import BreadcrumbTwo from "../components/BreadcrumbTwo";
+import ProductDetails from "../components/ProductDetails";
 import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
 
-
-
-const AllProductPage = () => {
+const ProductDetailsPage = () => {
 
   return (
 
@@ -20,16 +17,12 @@ const AllProductPage = () => {
       {/* HeaderOne */}
       <HeaderOne />
 
-      {/* Breadcrumb */}
-      <Breadcrumb />
+      {/* BreadcrumbTwo */}
+      <BreadcrumbTwo />
 
-      {/* AllProduct */}
-      <AllProduct />
 
-      {/* ResourceOne */}
-      <div className="resource-style-two">
-        <ResourceOne />
-      </div>
+      {/* ProductDetails */}
+      <ProductDetails />
 
 
       {/* BrandSectionOne */}
@@ -43,4 +36,4 @@ const AllProductPage = () => {
   );
 };
 
-export default AllProductPage;
+export default ProductDetailsPage;

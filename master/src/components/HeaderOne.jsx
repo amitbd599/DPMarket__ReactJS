@@ -59,10 +59,10 @@ const HeaderOne = () => {
           <nav className="header-inner flx-between">
             {/* Logo Start */}
             <div className="logo">
-              <Link scroll={false} to="/" className="link white-version" >
+              <Link to="/" className="link white-version" >
                 <img src="assets/images/logo/logo-two.png" alt="Logo" />
               </Link>
-              <Link scroll={false} to="/" className="link dark-version">
+              <Link to="/" className="link dark-version">
                 <img src="assets/images/logo/white-logo.png" alt="Logo" />
               </Link>
             </div>
@@ -71,34 +71,34 @@ const HeaderOne = () => {
             <div className="header-menu d-lg-block d-none">
               <ul className="nav-menu flx-align">
                 <li className="nav-menu__item has-submenu">
-                  <Link scroll={false} to="#" className="nav-menu__link">
+                  <Link to="#" className="nav-menu__link">
                     Home
                   </Link>
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/" className="nav-submenu__link">
+                      <NavLink to="/" className="nav-submenu__link">
                         Home One
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/index-two" className="nav-submenu__link">
+                      <NavLink to="/index-two" className="nav-submenu__link">
                         Home Two
                       </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <Link scroll={false} to="#" className="nav-menu__link">
+                  <Link to="#" className="nav-menu__link">
                     Products
                   </Link>
                   <ul className="nav-submenu">
-                  <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/all-product" className="nav-submenu__link">
+                    <li className="nav-submenu__item">
+                      <NavLink to="/all-product" className="nav-submenu__link">
                         All Products
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false}
+                      <NavLink
                         to="/product-details"
                         className="nav-submenu__link"
                       >
@@ -108,22 +108,22 @@ const HeaderOne = () => {
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <Link scroll={false} to="#" className="nav-menu__link">
+                  <Link to="#" className="nav-menu__link">
                     Pages
                   </Link>
                   <ul className="nav-submenu">
-                  <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/profile" className="nav-submenu__link">
+                    <li className="nav-submenu__item">
+                      <NavLink to="/profile" className="nav-submenu__link">
                         Profile
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/cart" className="nav-submenu__link">
+                      <NavLink to="/cart" className="nav-submenu__link">
                         Shopping Cart
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false}
+                      <NavLink
                         to="/cart-personal"
                         className="nav-submenu__link"
                       >
@@ -131,12 +131,12 @@ const HeaderOne = () => {
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/cart-payment" className="nav-submenu__link">
+                      <NavLink to="/cart-payment" className="nav-submenu__link">
                         Payment Method
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false}
+                      <NavLink
                         to="/cart-thank-you"
                         className="nav-submenu__link"
                       >
@@ -144,30 +144,30 @@ const HeaderOne = () => {
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/dashboard" className="nav-submenu__link">
+                      <NavLink to="/dashboard" className="nav-submenu__link">
                         Dashboard
                       </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-menu__item has-submenu">
-                  <Link scroll={false} to="#" className="nav-menu__link">
+                  <Link to="#" className="nav-menu__link">
                     Blog
                   </Link>
                   <ul className="nav-submenu">
-                  <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/blog" className="nav-submenu__link">
+                    <li className="nav-submenu__item">
+                      <NavLink to="/blog" className="nav-submenu__link">
                         {" "}
                         Blog
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false} to="/blog-details" className="nav-submenu__link">
+                      <NavLink to="/blog-details" className="nav-submenu__link">
                         Blog Details
                       </NavLink>
                     </li>
                     <li className="nav-submenu__item">
-                      <NavLink scroll={false}
+                      <NavLink
                         to="/blog-details-sidebar"
                         className="nav-submenu__link"
                       >
@@ -176,10 +176,10 @@ const HeaderOne = () => {
                     </li>
                   </ul>
                 </li>
-             
-     
+
+
                 <li className="nav-menu__item">
-                  <NavLink scroll={false} to="/contact" className="nav-menu__link">
+                  <NavLink to="/contact" className="nav-menu__link">
                     Contact
                   </NavLink>
                 </li>
@@ -188,7 +188,7 @@ const HeaderOne = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flx-align">
-              <Link scroll={false}
+              <Link
                 to="/cart"
                 className="header-right__button cart-btn position-relative"
               >
@@ -208,7 +208,7 @@ const HeaderOne = () => {
               <ThemeToggle />
               {/* Light Dark Mode */}
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
-                <Link scroll={false} to="/register" className="btn btn-main pill">
+                <Link to="/register" className="btn btn-main pill">
                   <span className="icon-left icon">
                     <img src="assets/images/icons/user.svg" alt="" />{" "}
                   </span>
@@ -252,7 +252,7 @@ const HeaderOne = () => {
           <i className="las la-times" />
         </button>
         <div className="mobile-menu__inner">
-          <Link scroll={false} to="/" className="mobile-menu__logo">
+          <Link to="/" className="mobile-menu__logo">
             <img
               src="assets/images/logo/logo.png"
               alt="Logo"
@@ -270,36 +270,36 @@ const HeaderOne = () => {
               id="offcanvas-navigation"
             >
               <li className="nav-menu__item has-submenu ">
-                <Link scroll={false} to="#" className="nav-menu__link">
+                <Link to="#" className="nav-menu__link">
                   Home
                 </Link>
                 <ul className="nav-submenu">
-                <li className="nav-submenu__item">
-           
-                    <NavLink scroll={false} to="/" className="nav-submenu__link">
+                  <li className="nav-submenu__item">
+
+                    <NavLink to="/" className="nav-submenu__link">
                       {" "}
                       Home One
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/index-two" className="nav-submenu__link">
+                    <NavLink to="/index-two" className="nav-submenu__link">
                       Home Two
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <Link scroll={false} to="#" className="nav-menu__link">
+                <Link to="#" className="nav-menu__link">
                   Products
                 </Link>
                 <ul className="nav-submenu">
-                <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/all-product" className="nav-submenu__link">
+                  <li className="nav-submenu__item">
+                    <NavLink to="/all-product" className="nav-submenu__link">
                       All Products
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false}
+                    <NavLink
                       to="/product-details"
                       className="nav-submenu__link"
                     >
@@ -309,61 +309,61 @@ const HeaderOne = () => {
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <Link scroll={false} to="#" className="nav-menu__link">
+                <Link to="#" className="nav-menu__link">
                   Pages
                 </Link>
                 <ul className="nav-submenu">
-                <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/profile" className="nav-submenu__link">
+                  <li className="nav-submenu__item">
+                    <NavLink to="/profile" className="nav-submenu__link">
                       {" "}
                       Profile
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/cart" className="nav-submenu__link">
+                    <NavLink to="/cart" className="nav-submenu__link">
                       Shopping Cart
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/cart-personal" className="nav-submenu__link">
+                    <NavLink to="/cart-personal" className="nav-submenu__link">
                       Mailing Address
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/cart-payment" className="nav-submenu__link">
+                    <NavLink to="/cart-payment" className="nav-submenu__link">
                       Payment Method
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/cart-thank-you" className="nav-submenu__link">
+                    <NavLink to="/cart-thank-you" className="nav-submenu__link">
                       Preview Order
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/dashboard" className="nav-submenu__link">
+                    <NavLink to="/dashboard" className="nav-submenu__link">
                       Dashboard
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-menu__item has-submenu">
-                <Link scroll={false} to="#" className="nav-menu__link">
+                <Link to="#" className="nav-menu__link">
                   Blog
                 </Link>
                 <ul className="nav-submenu">
-                <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/blog" className="nav-submenu__link">
+                  <li className="nav-submenu__item">
+                    <NavLink to="/blog" className="nav-submenu__link">
                       {" "}
                       Blog
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false} to="/blog-details" className="nav-submenu__link">
+                    <NavLink to="/blog-details" className="nav-submenu__link">
                       Blog Details
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink scroll={false}
+                    <NavLink
                       to="/blog-details-sidebar"
                       className="nav-submenu__link"
                     >
@@ -373,13 +373,13 @@ const HeaderOne = () => {
                 </ul>
               </li>
               <li className="nav-menu__item">
-                <NavLink scroll={false} to="/contact" className="nav-menu__link">
+                <NavLink to="/contact" className="nav-menu__link">
                   Contact
                 </NavLink>
               </li>
             </ul>
             <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
-              <Link scroll={false} to="/register" className="btn btn-main pill">
+              <Link to="/register" className="btn btn-main pill">
                 <span className="icon-left icon">
                   <img src="assets/images/icons/user.svg" alt="" />{" "}
                 </span>

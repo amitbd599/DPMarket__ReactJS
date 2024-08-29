@@ -29,7 +29,7 @@ const FooterOne = () => {
             <div className="col-xl-3 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-widget__logo">
-                  <Link scroll={false} to="/">
+                  <Link to="/">
                     <img src="assets/images/logo/white-logo.png" alt="" />
                   </Link>
                 </div>
@@ -40,7 +40,7 @@ const FooterOne = () => {
                 <div className="footer-widget__social">
                   <ul className="social-icon-list">
                     <li className="social-icon-list__item">
-                      <Link scroll={false}
+                      <Link
                         to="https://www.facebook.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -48,7 +48,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link scroll={false}
+                      <Link
                         to="https://www.twitter.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -56,7 +56,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link scroll={false}
+                      <Link
                         to="https://www.linkedin.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -64,7 +64,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link scroll={false}
+                      <Link
                         to="https://www.pinterest.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -72,7 +72,7 @@ const FooterOne = () => {
                       </Link>
                     </li>
                     <li className="social-icon-list__item">
-                      <Link scroll={false}
+                      <Link
                         to="https://www.pinterest.com"
                         className="social-icon-list__link flx-center"
                       >
@@ -88,12 +88,12 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Useful Link</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/all-product" className="footer-lists__link">
+                    <Link to="/all-product" className="footer-lists__link">
                       Product
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="footer-lists__link"
                     >
@@ -101,17 +101,17 @@ const FooterOne = () => {
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/profile" className="footer-lists__link">
+                    <Link to="/profile" className="footer-lists__link">
                       Profile
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/cart" className="footer-lists__link">
+                    <Link to="/cart" className="footer-lists__link">
                       Shopping Cart
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/dashboard" className="footer-lists__link">
+                    <Link to="/dashboard" className="footer-lists__link">
                       Dashboard
                     </Link>
                   </li>
@@ -123,27 +123,27 @@ const FooterOne = () => {
                 <h5 className="footer-widget__title text-white">Quick Links</h5>
                 <ul className="footer-lists">
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/dashboard" className="footer-lists__link">
+                    <Link to="/dashboard" className="footer-lists__link">
                       Dashboard
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/login" className="footer-lists__link">
+                    <Link to="/login" className="footer-lists__link">
                       Login{" "}
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/register" className="footer-lists__link">
+                    <Link to="/register" className="footer-lists__link">
                       Register
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/blog" className="footer-lists__link">
+                    <Link to="/blog" className="footer-lists__link">
                       Blog{" "}
                     </Link>
                   </li>
                   <li className="footer-lists__item">
-                    <Link scroll={false} to="/blog-details" className="footer-lists__link">
+                    <Link to="/blog-details" className="footer-lists__link">
                       Blog Details
                     </Link>
                   </li>
@@ -185,13 +185,13 @@ const FooterOne = () => {
               Copyright © 2024 DPmarket, All rights reserved.
             </p>
             <div className="footer-links">
-              <Link scroll={false} to="#" className="footer-link font-14">
+              <Link to="#" className="footer-link font-14">
                 Terms of service
               </Link>
-              <Link scroll={false} to="#" className="footer-link font-14">
+              <Link to="#" className="footer-link font-14">
                 Privacy Policy
               </Link>
-              <Link scroll={false} to="/contact" className="footer-link font-14">
+              <Link to="/contact" className="footer-link font-14">
                 cookies
               </Link>
             </div>

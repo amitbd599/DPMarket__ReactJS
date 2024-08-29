@@ -7,7 +7,7 @@ const PerformanceAuthor = () => {
 
   useEffect(() => {
     const text = textRef.current;
-    
+
     if (text) {
       text.innerHTML = text.innerText
         .split("")
@@ -89,7 +89,7 @@ const PerformanceAuthor = () => {
                   content specialists.
                 </p>
               </div>
-              <Link scroll={false}
+              <Link
                 to="/register"
                 className="btn btn-main btn-lg pill fw-300"
               >

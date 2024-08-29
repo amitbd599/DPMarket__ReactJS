@@ -31,7 +31,7 @@ const FeaturedTwo = () => {
                   products
                 </p>
               </div>
-              <Link scroll={false}
+              <Link
                 to="/profile"
                 className="btn btn-main btn-lg pill fw-300"
               >
@@ -72,7 +72,7 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <Link scroll={false} to="#" className="contributor-item__link">
+                      <Link to="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
                       </Link>
                     </div>
@@ -109,7 +109,7 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <Link scroll={false} to="#" className="contributor-item__link">
+                      <Link to="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
                       </Link>
                     </div>
@@ -146,7 +146,7 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <Link scroll={false} to="#" className="contributor-item__link">
+                      <Link to="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
                       </Link>
                     </div>
@@ -183,7 +183,7 @@ const FeaturedTwo = () => {
                         alt=""
                         className="cover-img"
                       />
-                      <Link scroll={false} to="#" className="contributor-item__link">
+                      <Link to="#" className="contributor-item__link">
                         <img src="assets/images/icons/link-white.svg" alt="" />
                       </Link>
                     </div>

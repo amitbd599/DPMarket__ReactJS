@@ -23,7 +23,7 @@ const ServiceOne = () => {
               specialists.
             </p>
           </div>
-          <Link scroll={false} to="#" className="btn btn-main btn-lg pill">
+          <Link to="#" className="btn btn-main btn-lg pill">
             See All Services
           </Link>
         </div>
@@ -50,7 +50,7 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <Link scroll={false} to="#" className="btn-simple">
+              <Link to="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
@@ -80,7 +80,7 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <Link scroll={false} to="#" className="btn-simple">
+              <Link to="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
@@ -110,7 +110,7 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <Link scroll={false} to="#" className="btn-simple">
+              <Link to="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
@@ -140,7 +140,7 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <Link scroll={false} to="#" className="btn-simple">
+              <Link to="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
@@ -170,7 +170,7 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <Link scroll={false} to="#" className="btn-simple">
+              <Link to="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />
@@ -200,7 +200,7 @@ const ServiceOne = () => {
                 We help companies communicate with customers more effectively
                 and efficiently. Help is a conversational customer support.
               </p>
-              <Link scroll={false} to="#" className="btn-simple">
+              <Link to="#" className="btn-simple">
                 Read More
                 <span className="icon">
                   <i className="las la-arrow-right" />

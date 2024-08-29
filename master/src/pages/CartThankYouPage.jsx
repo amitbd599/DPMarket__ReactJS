@@ -1,15 +1,11 @@
 import React from "react";
 import Preloader from "../helper/Preloader";
 import HeaderOne from "../components/HeaderOne";
-import Breadcrumb from "../components/Breadcrumb";
-import AllProduct from "../components/AllProduct";
-import ResourceOne from "../components/ResourceOne";
 import BrandSectionOne from "../components/BrandSectionOne";
 import FooterOne from "../components/FooterOne";
+import CartThankYou from "../components/CartThankYou";
 
-
-
-const AllProductPage = () => {
+const CartThankYouPage = () => {
 
   return (
 
@@ -20,20 +16,11 @@ const AllProductPage = () => {
       {/* HeaderOne */}
       <HeaderOne />
 
-      {/* Breadcrumb */}
-      <Breadcrumb />
-
-      {/* AllProduct */}
-      <AllProduct />
-
-      {/* ResourceOne */}
-      <div className="resource-style-two">
-        <ResourceOne />
-      </div>
+      {/* CartThankYou */}
+      <CartThankYou />
 
 
       {/* BrandSectionOne */}
-
       <BrandSectionOne />
 
 
@@ -43,4 +30,4 @@ const AllProductPage = () => {
   );
 };
 
-export default AllProductPage;
+export default CartThankYouPage;

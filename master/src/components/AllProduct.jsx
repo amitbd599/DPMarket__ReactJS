@@ -11,7 +11,7 @@ const AllProduct = () => {
     setActiveButton(buttonName);
   };
 
-  
+
   const handleFilter = () => {
     setFilter(!filter);
   };
@@ -213,7 +213,7 @@ const AllProduct = () => {
               <button
                 type="button"
                 className="filter-sidebar__close p-2 position-absolute end-0 top-0 z-index-1 text-body hover-text-main font-20 d-lg-none d-block"
-              onClick={handleFilter}>
+                onClick={handleFilter}>
                 <i className="las la-times" />
               </button>
               <div className="filter-sidebar__item">
@@ -226,62 +226,62 @@ const AllProduct = () => {
                 <div className="filter-sidebar__content">
                   <ul className="filter-sidebar-list">
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         All Categories <span className="qty">25489</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Site Template <span className="qty">12,501</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         WordPress <span className="qty">1258</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         UI Template <span className="qty">1520</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Templates Kits <span className="qty">210</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         eCommerce <span className="qty">158</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Marketing <span className="qty">178</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         CMS Template <span className="qty">122</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Muse Themes <span className="qty">450</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Blogging <span className="qty">155</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Courses <span className="qty">125</span>
                       </Link>
                     </li>
                     <li className="filter-sidebar-list__item">
-                      <Link scroll={false} to="/" className="filter-sidebar-list__text">
+                      <Link to="/" className="filter-sidebar-list__text">
                         Forums <span className="qty">35</span>
                       </Link>
                     </li>
@@ -522,7 +522,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img1.png"
                             alt=""
@@ -538,14 +538,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -587,7 +587,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -600,7 +600,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img2.png"
                             alt=""
@@ -616,14 +616,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -665,7 +665,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -678,7 +678,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img3.png"
                             alt=""
@@ -694,14 +694,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -743,7 +743,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -756,7 +756,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img4.png"
                             alt=""
@@ -772,14 +772,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -821,7 +821,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -834,7 +834,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img5.png"
                             alt=""
@@ -850,14 +850,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -899,7 +899,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -912,7 +912,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img6.png"
                             alt=""
@@ -928,14 +928,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -977,7 +977,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -990,7 +990,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img7.png"
                             alt=""
@@ -1006,14 +1006,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1055,7 +1055,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1068,7 +1068,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img8.png"
                             alt=""
@@ -1084,14 +1084,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1133,7 +1133,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1146,7 +1146,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img9.png"
                             alt=""
@@ -1162,14 +1162,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1211,7 +1211,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1224,7 +1224,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img10.png"
                             alt=""
@@ -1240,14 +1240,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1289,7 +1289,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1302,7 +1302,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img11.png"
                             alt=""
@@ -1318,14 +1318,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1367,7 +1367,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1380,7 +1380,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img12.png"
                             alt=""
@@ -1396,14 +1396,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1445,7 +1445,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1460,32 +1460,32 @@ const AllProduct = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination">
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         5
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false}
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         to="#"
                       >
@@ -1510,7 +1510,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img1.png"
                             alt=""
@@ -1526,14 +1526,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1575,7 +1575,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1588,7 +1588,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img2.png"
                             alt=""
@@ -1604,14 +1604,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1653,7 +1653,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1666,7 +1666,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img3.png"
                             alt=""
@@ -1682,14 +1682,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1731,7 +1731,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1744,7 +1744,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img4.png"
                             alt=""
@@ -1760,14 +1760,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1809,7 +1809,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1822,7 +1822,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img5.png"
                             alt=""
@@ -1838,14 +1838,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1887,7 +1887,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1900,7 +1900,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img6.png"
                             alt=""
@@ -1916,14 +1916,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -1965,7 +1965,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -1978,7 +1978,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img7.png"
                             alt=""
@@ -1994,14 +1994,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2043,7 +2043,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2056,7 +2056,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img8.png"
                             alt=""
@@ -2072,14 +2072,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2121,7 +2121,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2134,7 +2134,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img9.png"
                             alt=""
@@ -2150,14 +2150,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2199,7 +2199,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2212,7 +2212,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img10.png"
                             alt=""
@@ -2228,14 +2228,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2277,7 +2277,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2290,7 +2290,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img11.png"
                             alt=""
@@ -2306,14 +2306,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2355,7 +2355,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2368,7 +2368,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img12.png"
                             alt=""
@@ -2384,14 +2384,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2433,7 +2433,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2448,32 +2448,32 @@ const AllProduct = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination">
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         5
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false}
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         to="#"
                       >
@@ -2498,7 +2498,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img1.png"
                             alt=""
@@ -2514,14 +2514,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2563,7 +2563,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2576,7 +2576,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img2.png"
                             alt=""
@@ -2592,14 +2592,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2641,7 +2641,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2654,7 +2654,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img3.png"
                             alt=""
@@ -2670,14 +2670,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2719,7 +2719,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2732,7 +2732,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img4.png"
                             alt=""
@@ -2748,14 +2748,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2797,7 +2797,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2810,7 +2810,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img5.png"
                             alt=""
@@ -2826,14 +2826,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2875,7 +2875,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2888,7 +2888,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img6.png"
                             alt=""
@@ -2904,14 +2904,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -2953,7 +2953,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -2966,7 +2966,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img7.png"
                             alt=""
@@ -2982,14 +2982,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3031,7 +3031,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3044,7 +3044,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img8.png"
                             alt=""
@@ -3060,14 +3060,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3109,7 +3109,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3122,7 +3122,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img9.png"
                             alt=""
@@ -3138,14 +3138,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3187,7 +3187,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3200,7 +3200,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img10.png"
                             alt=""
@@ -3216,14 +3216,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3265,7 +3265,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3278,7 +3278,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img11.png"
                             alt=""
@@ -3294,14 +3294,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3343,7 +3343,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3356,7 +3356,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img12.png"
                             alt=""
@@ -3372,14 +3372,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3421,7 +3421,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3436,32 +3436,32 @@ const AllProduct = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination">
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         5
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false}
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         to="#"
                       >
@@ -3486,7 +3486,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img1.png"
                             alt=""
@@ -3502,14 +3502,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3551,7 +3551,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3564,7 +3564,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img2.png"
                             alt=""
@@ -3580,14 +3580,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3629,7 +3629,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3642,7 +3642,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img3.png"
                             alt=""
@@ -3658,14 +3658,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3707,7 +3707,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3720,7 +3720,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img4.png"
                             alt=""
@@ -3736,14 +3736,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3785,7 +3785,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3798,7 +3798,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img5.png"
                             alt=""
@@ -3814,14 +3814,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3863,7 +3863,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3876,7 +3876,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img6.png"
                             alt=""
@@ -3892,14 +3892,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -3941,7 +3941,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -3954,7 +3954,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img7.png"
                             alt=""
@@ -3970,14 +3970,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4019,7 +4019,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4032,7 +4032,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img8.png"
                             alt=""
@@ -4048,14 +4048,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4097,7 +4097,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4110,7 +4110,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img9.png"
                             alt=""
@@ -4126,14 +4126,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4175,7 +4175,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4188,7 +4188,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img10.png"
                             alt=""
@@ -4204,14 +4204,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4253,7 +4253,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4266,7 +4266,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img11.png"
                             alt=""
@@ -4282,14 +4282,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4331,7 +4331,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4344,7 +4344,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img12.png"
                             alt=""
@@ -4360,14 +4360,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4409,7 +4409,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4424,32 +4424,32 @@ const AllProduct = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination">
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         5
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false}
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         to="#"
                       >
@@ -4474,7 +4474,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img1.png"
                             alt=""
@@ -4490,14 +4490,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4539,7 +4539,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4552,7 +4552,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img2.png"
                             alt=""
@@ -4568,14 +4568,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4617,7 +4617,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4630,7 +4630,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img3.png"
                             alt=""
@@ -4646,14 +4646,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4695,7 +4695,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4708,7 +4708,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img4.png"
                             alt=""
@@ -4724,14 +4724,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4773,7 +4773,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4786,7 +4786,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img5.png"
                             alt=""
@@ -4802,14 +4802,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4851,7 +4851,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4864,7 +4864,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img6.png"
                             alt=""
@@ -4880,14 +4880,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -4929,7 +4929,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -4942,7 +4942,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img7.png"
                             alt=""
@@ -4958,14 +4958,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5007,7 +5007,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5020,7 +5020,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img8.png"
                             alt=""
@@ -5036,14 +5036,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5085,7 +5085,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5098,7 +5098,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img9.png"
                             alt=""
@@ -5114,14 +5114,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5163,7 +5163,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5176,7 +5176,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img10.png"
                             alt=""
@@ -5192,14 +5192,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5241,7 +5241,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5254,7 +5254,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img11.png"
                             alt=""
@@ -5270,14 +5270,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5319,7 +5319,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5332,7 +5332,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img12.png"
                             alt=""
@@ -5348,14 +5348,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5397,7 +5397,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5412,32 +5412,32 @@ const AllProduct = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination">
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         5
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false}
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         to="#"
                       >
@@ -5462,7 +5462,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img1.png"
                             alt=""
@@ -5478,14 +5478,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5527,7 +5527,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5540,7 +5540,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img2.png"
                             alt=""
@@ -5556,14 +5556,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5605,7 +5605,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5618,7 +5618,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img3.png"
                             alt=""
@@ -5634,14 +5634,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5683,7 +5683,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5696,7 +5696,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img4.png"
                             alt=""
@@ -5712,14 +5712,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5761,7 +5761,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5774,7 +5774,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img5.png"
                             alt=""
@@ -5790,14 +5790,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5839,7 +5839,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5852,7 +5852,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img6.png"
                             alt=""
@@ -5868,14 +5868,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5917,7 +5917,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -5930,7 +5930,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img7.png"
                             alt=""
@@ -5946,14 +5946,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -5995,7 +5995,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -6008,7 +6008,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img8.png"
                             alt=""
@@ -6024,14 +6024,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -6073,7 +6073,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -6086,7 +6086,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img9.png"
                             alt=""
@@ -6102,14 +6102,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -6151,7 +6151,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -6164,7 +6164,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img10.png"
                             alt=""
@@ -6180,14 +6180,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -6229,7 +6229,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -6242,7 +6242,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img11.png"
                             alt=""
@@ -6258,14 +6258,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -6307,7 +6307,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -6320,7 +6320,7 @@ const AllProduct = () => {
                   <div className="col-xl-4 col-sm-6">
                     <div className="product-item section-bg">
                       <div className="product-item__thumb d-flex">
-                        <Link scroll={false} to="/product-details" className="link w-100">
+                        <Link to="/product-details" className="link w-100">
                           <img
                             src="assets/images/thumbs/product-img12.png"
                             alt=""
@@ -6336,14 +6336,14 @@ const AllProduct = () => {
                       </div>
                       <div className="product-item__content">
                         <h6 className="product-item__title">
-                          <Link scroll={false} to="/product-details" className="link">
+                          <Link to="/product-details" className="link">
                             SaaS dashboard digital products Title here
                           </Link>
                         </h6>
                         <div className="product-item__info flx-between gap-2">
                           <span className="product-item__author">
                             by
-                            <Link scroll={false}
+                            <Link
                               to="/profile"
                               className="link hover-text-decoration-underline"
                             >
@@ -6385,7 +6385,7 @@ const AllProduct = () => {
                               </span>
                             </div>
                           </div>
-                          <Link scroll={false}
+                          <Link
                             to="/product-details"
                             className="btn btn-outline-light btn-sm pill"
                           >
@@ -6400,32 +6400,32 @@ const AllProduct = () => {
                 <nav aria-label="Page navigation example">
                   <ul className="pagination common-pagination">
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         1
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         2
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         3
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         4
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false} className="page-link" to="#">
+                      <Link className="page-link" to="#">
                         5
                       </Link>
                     </li>
                     <li className="page-item">
-                      <Link scroll={false}
+                      <Link
                         className="page-link flx-align gap-2 flex-nowrap"
                         to="#"
                       >

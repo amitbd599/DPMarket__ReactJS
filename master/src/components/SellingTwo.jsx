@@ -46,7 +46,7 @@ const SellingTwo = () => {
           slidesToShow: 3,
           slidesToScroll: 2,
           initialSlide: 2,
-          
+
         },
       },
       {
@@ -102,7 +102,7 @@ const SellingTwo = () => {
               specialists.
             </p>
           </div>
-          <Link scroll={false}
+          <Link
             to="/all-product"
             className="btn btn-main btn-lg pill fw-300"
           >
@@ -113,7 +113,7 @@ const SellingTwo = () => {
           <Slider {...settings}>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
-                <Link scroll={false} to="/product-details" className="link w-100">
+                <Link to="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img12.png"
                     alt=""
@@ -123,14 +123,14 @@ const SellingTwo = () => {
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <Link scroll={false} to="/product-details" className="link">
+                  <Link to="/product-details" className="link">
                     Title here digital products new marketplace theme
                   </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <Link scroll={false}
+                    <Link
                       to="profile"
                       className="link hover-text-decoration-underline"
                     >
@@ -168,7 +168,7 @@ const SellingTwo = () => {
                     </ul>
                   </div>
                   <div className="flx-align gap-2">
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
                     >
@@ -185,7 +185,7 @@ const SellingTwo = () => {
                         />
                       </span>
                     </Link>
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light pill"
                     >
@@ -197,7 +197,7 @@ const SellingTwo = () => {
             </div>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
-                <Link scroll={false} to="/product-details" className="link w-100">
+                <Link to="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img13.png"
                     alt=""
@@ -207,14 +207,14 @@ const SellingTwo = () => {
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <Link scroll={false} to="/product-details" className="link">
+                  <Link to="/product-details" className="link">
                     Title here digital products new marketplace theme
                   </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <Link scroll={false}
+                    <Link
                       to="profile"
                       className="link hover-text-decoration-underline"
                     >
@@ -252,7 +252,7 @@ const SellingTwo = () => {
                     </ul>
                   </div>
                   <div className="flx-align gap-2">
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
                     >
@@ -269,7 +269,7 @@ const SellingTwo = () => {
                         />
                       </span>
                     </Link>
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light pill"
                     >
@@ -281,7 +281,7 @@ const SellingTwo = () => {
             </div>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
-                <Link scroll={false} to="/product-details" className="link w-100">
+                <Link to="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img14.png"
                     alt=""
@@ -291,14 +291,14 @@ const SellingTwo = () => {
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <Link scroll={false} to="/product-details" className="link">
+                  <Link to="/product-details" className="link">
                     Title here digital products new marketplace theme
                   </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <Link scroll={false}
+                    <Link
                       to="profile"
                       className="link hover-text-decoration-underline"
                     >
@@ -336,7 +336,7 @@ const SellingTwo = () => {
                     </ul>
                   </div>
                   <div className="flx-align gap-2">
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
                     >
@@ -353,7 +353,7 @@ const SellingTwo = () => {
                         />
                       </span>
                     </Link>
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light pill"
                     >
@@ -365,7 +365,7 @@ const SellingTwo = () => {
             </div>
             <div className="product-item shadow-sm overlay-none">
               <div className="product-item__thumb d-flex max-h-unset">
-                <Link scroll={false} to="/product-details" className="link w-100">
+                <Link to="/product-details" className="link w-100">
                   <img
                     src="assets/images/thumbs/product-img13.png"
                     alt=""
@@ -375,14 +375,14 @@ const SellingTwo = () => {
               </div>
               <div className="product-item__content">
                 <h6 className="product-item__title">
-                  <Link scroll={false} to="/product-details" className="link">
+                  <Link to="/product-details" className="link">
                     Title here digital products new marketplace theme
                   </Link>
                 </h6>
                 <div className="product-item__info flx-between gap-2">
                   <span className="product-item__author">
                     by
-                    <Link scroll={false}
+                    <Link
                       to="profile"
                       className="link hover-text-decoration-underline"
                     >
@@ -420,7 +420,7 @@ const SellingTwo = () => {
                     </ul>
                   </div>
                   <div className="flx-align gap-2">
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light download-icon btn-icon btn-icon--sm pill"
                     >
@@ -437,7 +437,7 @@ const SellingTwo = () => {
                         />
                       </span>
                     </Link>
-                    <Link scroll={false}
+                    <Link
                       to="/product-details"
                       className="btn btn-outline-light pill"
                     >
