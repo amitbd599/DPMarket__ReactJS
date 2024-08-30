@@ -2,7 +2,7 @@
 
 
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import ThemeToggle from "../components/ThemeToggle";
 
 const MasterLayout = ({ children }) => {
@@ -212,8 +212,10 @@ const MasterLayout = ({ children }) => {
                             </Link>
                             {/* Sidebar List Start */}
                             <ul className="sidebar-list">
-                                <li className={`sidebar-list__item ${pathname == "/dashboard" && "activePage"}`}>
-                                    <Link to="/dashboard" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/dashboard" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }  >
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon1.svg"
@@ -227,10 +229,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Dashboard</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/dashboard-profile" && "activePage"}`}>
-                                    <Link to="/dashboard-profile" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/dashboard-profile" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon2.svg"
@@ -244,10 +248,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Profile</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/follower" && "activePage"}`}>
-                                    <Link to="/follower" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/follower" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon4.svg"
@@ -261,10 +267,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Followers</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/following" && "activePage"}`}>
-                                    <Link to="/following" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/following" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon5.svg"
@@ -278,10 +286,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Followings</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/setting" && "activePage"}`}>
-                                    <Link to="/setting" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/setting" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -295,10 +305,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Settings</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/statement" && "activePage"}`}>
-                                    <Link to="/statement" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/statement" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon12.svg"
@@ -312,10 +324,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Statements</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/earning" && "activePage"}`}>
-                                    <Link to="/earning" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/earning" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon11.svg"
@@ -329,10 +343,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Earnings</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/review" && "activePage"}`}>
-                                    <Link to="/review" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/review" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon7.svg"
@@ -346,10 +362,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Reviews</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/download" && "activePage"}`}>
-                                    <Link to="/download" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/download" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon6.svg"
@@ -363,10 +381,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Downloads</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/refund" && "activePage"}`}>
-                                    <Link to="/refund" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/refund" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon8.svg"
@@ -380,10 +400,12 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Refunds</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li className={`sidebar-list__item ${pathname == "/login" && "activePage"}`}>
-                                    <Link to="/login" className="sidebar-list__link">
+                                <li className="sidebar-list__item">
+                                    <NavLink to="/login" className={(navData) =>
+                                        navData.isActive ? "sidebar-list__link activePage" : "sidebar-list__link"
+                                    }>
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon13.svg"
@@ -397,7 +419,7 @@ const MasterLayout = ({ children }) => {
                                             />
                                         </span>
                                         <span className="text">Logout</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             </ul>
                             {/* Sidebar List End */}

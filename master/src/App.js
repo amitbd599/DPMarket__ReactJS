@@ -24,6 +24,8 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import BlogPage from "./pages/BlogPage";
 import BlogDetailsPage from "./pages/BlogDetailsPage";
+import BlogDetailsSidebarPage from "./pages/BlogDetailsSidebarPage";
+import ContactPage from "./pages/ContactPage";
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
         <Route exact path="/refund" element={<RefundPage />} />
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
+        <Route exact path="/blog-details-sidebar" element={<BlogDetailsSidebarPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
 
 
 

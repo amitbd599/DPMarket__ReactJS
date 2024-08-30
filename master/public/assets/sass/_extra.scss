@@ -75,3 +75,18 @@
 .scroll-to-top {
   z-index: 999999 !important;
 }
+
+.sidebar-list__item .sidebar-list__link.activePage, .sidebar-list__item .sidebar-list__link:hover {
+  color: hsl(var(--heading-color));
+  background-color: hsl(var(--gray-seven));
+}
+
+.sidebar-list__item .sidebar-list__link.activePage .sidebar-list__icon .icon, .sidebar-list__item:hover .sidebar-list__icon .icon {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sidebar-list__item .sidebar-list__link.activePage .sidebar-list__icon .icon-active, .sidebar-list__link:hover .sidebar-list__icon .icon-active {
+  visibility: visible;
+  opacity: 1;
+}
