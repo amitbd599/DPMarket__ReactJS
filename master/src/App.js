@@ -10,6 +10,11 @@ import CartPage from "./pages/CartPage";
 import CartPersonalPage from "./pages/CartPersonalPage";
 import CartPaymentPage from "./pages/CartPaymentPage";
 import CartThankYouPage from "./pages/CartThankYouPage";
+import DashboardPage from "./pages/DashboardPage";
+import DashboardProfilePage from "./pages/DashboardProfilePage";
+import FollowerPage from "./pages/FollowerPage";
+import FollowingPage from "./pages/FollowingPage";
+import SettingPage from "./pages/SettingPage";
 
 
 function App() {
@@ -27,6 +32,11 @@ function App() {
         <Route exact path="/cart-personal" element={<CartPersonalPage />} />
         <Route exact path="/cart-payment" element={<CartPaymentPage />} />
         <Route exact path="/cart-thank-you" element={<CartThankYouPage />} />
+        <Route exact path="/dashboard" element={<DashboardPage />} />
+        <Route exact path="/dashboard-profile" element={<DashboardProfilePage />} />
+        <Route exact path="/follower" element={<FollowerPage />} />
+        <Route exact path="/following" element={<FollowingPage />} />
+        <Route exact path="/setting" element={<SettingPage />} />
 
       </Routes>
     </BrowserRouter>

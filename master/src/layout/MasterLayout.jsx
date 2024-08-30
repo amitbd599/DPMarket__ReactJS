@@ -1,11 +1,12 @@
-'use client'
-import ThemeToggle from "@/components/ThemeToggle";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+
+
+
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import ThemeToggle from "../components/ThemeToggle";
 
 const MasterLayout = ({ children }) => {
-    let pathname = usePathname();
+    let pathname = useLocation();
     let [active, setActive] = useState(false)
     let [show, setShow] = useState(false)
     let dashboardControl = () => {
@@ -26,7 +27,7 @@ const MasterLayout = ({ children }) => {
                     <i className="las la-times" />{" "}
                 </button>
                 <div className="mobile-menu__inner">
-                    <Link href="/" className="mobile-menu__logo">
+                    <Link to="/" className="mobile-menu__logo">
                         <img
                             src="assets/images/logo/logo.png"
                             alt="Logo"
@@ -41,18 +42,18 @@ const MasterLayout = ({ children }) => {
                     <div className="mobile-menu__menu">
                         <ul className="nav-menu flx-align nav-menu--mobile">
                             <li className="nav-menu__item has-submenu">
-                                <Link href="#" className="nav-menu__link">
+                                <Link to="#" className="nav-menu__link">
                                     Home
                                 </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <Link href="/" className="nav-submenu__link">
+                                        <Link to="/" className="nav-submenu__link">
                                             {" "}
                                             Home One
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/index-two" className="nav-submenu__link">
+                                        <Link to="/index-two" className="nav-submenu__link">
                                             {" "}
                                             Home Two
                                         </Link>
@@ -60,18 +61,18 @@ const MasterLayout = ({ children }) => {
                                 </ul>
                             </li>
                             <li className="nav-menu__item has-submenu">
-                                <Link href="/#" className="nav-menu__link">
+                                <Link to="/#" className="nav-menu__link">
                                     Products
                                 </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <Link href="/all-product" className="nav-submenu__link">
+                                        <Link to="/all-product" className="nav-submenu__link">
                                             {" "}
                                             All Products
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/product-details" className="nav-submenu__link">
+                                        <Link to="/product-details" className="nav-submenu__link">
                                             {" "}
                                             Product Details
                                         </Link>
@@ -79,42 +80,42 @@ const MasterLayout = ({ children }) => {
                                 </ul>
                             </li>
                             <li className="nav-menu__item has-submenu">
-                                <Link href="/#" className="nav-menu__link">
+                                <Link to="/#" className="nav-menu__link">
                                     Pages
                                 </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <Link href="/profile" className="nav-submenu__link">
+                                        <Link to="/profile" className="nav-submenu__link">
                                             {" "}
                                             Profile
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/cart" className="nav-submenu__link">
+                                        <Link to="/cart" className="nav-submenu__link">
                                             {" "}
                                             Shopping Cart
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/cart-personal" className="nav-submenu__link">
+                                        <Link to="/cart-personal" className="nav-submenu__link">
                                             {" "}
                                             Mailing Address
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/cart-payment" className="nav-submenu__link">
+                                        <Link to="/cart-payment" className="nav-submenu__link">
                                             {" "}
                                             Payment Method
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/cart-thank-you" className="nav-submenu__link">
+                                        <Link to="/cart-thank-you" className="nav-submenu__link">
                                             {" "}
                                             Preview Order
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/dashboard" className="nav-submenu__link">
+                                        <Link to="/dashboard" className="nav-submenu__link">
                                             {" "}
                                             Dashboard
                                         </Link>
@@ -122,24 +123,24 @@ const MasterLayout = ({ children }) => {
                                 </ul>
                             </li>
                             <li className="nav-menu__item has-submenu">
-                                <Link href="/#" className="nav-menu__link">
+                                <Link to="/#" className="nav-menu__link">
                                     Blog
                                 </Link>
                                 <ul className="nav-submenu">
                                     <li className="nav-submenu__item">
-                                        <Link href="/blog" className="nav-submenu__link">
+                                        <Link to="/blog" className="nav-submenu__link">
                                             {" "}
                                             Blog
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/blog-details" className="nav-submenu__link">
+                                        <Link to="/blog-details" className="nav-submenu__link">
                                             {" "}
                                             Blog Details
                                         </Link>
                                     </li>
                                     <li className="nav-submenu__item">
-                                        <Link href="/blog-details-sidebar" className="nav-submenu__link">
+                                        <Link to="/blog-details-sidebar" className="nav-submenu__link">
                                             {" "}
                                             Blog Details Sidebar
                                         </Link>
@@ -147,13 +148,13 @@ const MasterLayout = ({ children }) => {
                                 </ul>
                             </li>
                             <li className="nav-menu__item">
-                                <Link href="/contact" className="nav-menu__link">
+                                <Link to="/contact" className="nav-menu__link">
                                     Contact
                                 </Link>
                             </li>
                         </ul>
                         <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
-                            <Link href="/register" className="btn btn-main pill">
+                            <Link to="/register" className="btn btn-main pill">
                                 <span className="icon-left icon">
                                     <img src="assets/images/icons/user.svg" alt="" />
                                 </span>
@@ -194,7 +195,7 @@ const MasterLayout = ({ children }) => {
                             <i className="las la-times" />
                         </button>
                         <div className="dashboard-sidebar__inner">
-                            <Link href="/" className="logo mb-48">
+                            <Link to="/" className="logo mb-48">
                                 <img
                                     src="assets/images/logo/logo.png"
                                     alt=""
@@ -206,13 +207,13 @@ const MasterLayout = ({ children }) => {
                                     className="dark-version"
                                 />
                             </Link>
-                            <Link href="/" className="logo favicon mb-48">
+                            <Link to="/" className="logo favicon mb-48">
                                 <img src="assets/images/logo/favicon.png" alt="" />
                             </Link>
                             {/* Sidebar List Start */}
                             <ul className="sidebar-list">
                                 <li className={`sidebar-list__item ${pathname == "/dashboard" && "activePage"}`}>
-                                    <Link href="/dashboard" className="sidebar-list__link">
+                                    <Link to="/dashboard" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon1.svg"
@@ -229,7 +230,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/dashboard-profile" && "activePage"}`}>
-                                    <Link href="/dashboard-profile" className="sidebar-list__link">
+                                    <Link to="/dashboard-profile" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon2.svg"
@@ -246,7 +247,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/follower" && "activePage"}`}>
-                                    <Link href="/follower" className="sidebar-list__link">
+                                    <Link to="/follower" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon4.svg"
@@ -263,7 +264,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/following" && "activePage"}`}>
-                                    <Link href="/following" className="sidebar-list__link">
+                                    <Link to="/following" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon5.svg"
@@ -280,7 +281,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/setting" && "activePage"}`}>
-                                    <Link href="/setting" className="sidebar-list__link">
+                                    <Link to="/setting" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -297,7 +298,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/statement" && "activePage"}`}>
-                                    <Link href="/statement" className="sidebar-list__link">
+                                    <Link to="/statement" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon12.svg"
@@ -314,7 +315,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/earning" && "activePage"}`}>
-                                    <Link href="/earning" className="sidebar-list__link">
+                                    <Link to="/earning" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon11.svg"
@@ -331,7 +332,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/review" && "activePage"}`}>
-                                    <Link href="/review" className="sidebar-list__link">
+                                    <Link to="/review" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon7.svg"
@@ -348,7 +349,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/download" && "activePage"}`}>
-                                    <Link href="/download" className="sidebar-list__link">
+                                    <Link to="/download" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon6.svg"
@@ -365,7 +366,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/refund" && "activePage"}`}>
-                                    <Link href="/refund" className="sidebar-list__link">
+                                    <Link to="/refund" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon8.svg"
@@ -382,7 +383,7 @@ const MasterLayout = ({ children }) => {
                                     </Link>
                                 </li>
                                 <li className={`sidebar-list__item ${pathname == "/login" && "activePage"}`}>
-                                    <Link href="/login" className="sidebar-list__link">
+                                    <Link to="/login" className="sidebar-list__link">
                                         <span className="sidebar-list__icon">
                                             <img
                                                 src="assets/images/icons/sidebar-icon13.svg"
@@ -456,7 +457,7 @@ const MasterLayout = ({ children }) => {
                                             </button>
                                             <ul className={`user-profile-dropdown ${show && "show"} `}>
                                                 <li className="sidebar-list__item">
-                                                    <Link href="/dashboard-profile" className="sidebar-list__link">
+                                                    <Link to="/dashboard-profile" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon2.svg"
@@ -473,7 +474,7 @@ const MasterLayout = ({ children }) => {
                                                     </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">
-                                                    <Link href="/setting" className="sidebar-list__link">
+                                                    <Link to="/setting" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon10.svg"
@@ -490,7 +491,7 @@ const MasterLayout = ({ children }) => {
                                                     </Link>
                                                 </li>
                                                 <li className="sidebar-list__item">
-                                                    <Link href="/login" className="sidebar-list__link">
+                                                    <Link to="/login" className="sidebar-list__link">
                                                         <span className="sidebar-list__icon">
                                                             <img
                                                                 src="assets/images/icons/sidebar-icon13.svg"
@@ -542,13 +543,13 @@ const MasterLayout = ({ children }) => {
                                     Copyright © 2024 DPmarket, All rights reserved.
                                 </p>
                                 <div className="footer-links gap-4">
-                                    <Link href="/#" className="footer-link hover-text-heading font-14">
+                                    <Link to="/#" className="footer-link hover-text-heading font-14">
                                         Terms of service
                                     </Link>
-                                    <Link href="/#" className="footer-link hover-text-heading font-14">
+                                    <Link to="/#" className="footer-link hover-text-heading font-14">
                                         Privacy Policy
                                     </Link>
-                                    <Link href="/#" className="footer-link hover-text-heading font-14">
+                                    <Link to="/#" className="footer-link hover-text-heading font-14">
                                         cookies
                                     </Link>
                                 </div>
