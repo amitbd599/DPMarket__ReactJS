@@ -15,6 +15,13 @@ import DashboardProfilePage from "./pages/DashboardProfilePage";
 import FollowerPage from "./pages/FollowerPage";
 import FollowingPage from "./pages/FollowingPage";
 import SettingPage from "./pages/SettingPage";
+import StatementPage from "./pages/StatementPage";
+import EarningPage from "./pages/EarningPage";
+import ReviewPage from "./pages/ReviewPage";
+import DownloadPage from "./pages/DownloadPage";
+import RefundPage from "./pages/RefundPage";
+import RegisterPage from "./pages/RegisterPage";
+import LoginPage from "./pages/LoginPage";
 
 
 function App() {
@@ -37,6 +44,13 @@ function App() {
         <Route exact path="/follower" element={<FollowerPage />} />
         <Route exact path="/following" element={<FollowingPage />} />
         <Route exact path="/setting" element={<SettingPage />} />
+        <Route exact path="/statement" element={<StatementPage />} />
+        <Route exact path="/earning" element={<EarningPage />} />
+        <Route exact path="/review" element={<ReviewPage />} />
+        <Route exact path="/download" element={<DownloadPage />} />
+        <Route exact path="/refund" element={<RefundPage />} />
+        <Route exact path="/register" element={<RegisterPage />} />
+        <Route exact path="/login" element={<LoginPage />} />
 
       </Routes>
     </BrowserRouter>
