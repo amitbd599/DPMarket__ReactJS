@@ -90,3 +90,8 @@
   visibility: visible;
   opacity: 1;
 }
+
+
+.nav-submenu__item .nav-submenu__link.activePage  {
+  color: hsl(var(--main));
+}

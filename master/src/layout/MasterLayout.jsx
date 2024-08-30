@@ -2,11 +2,11 @@
 
 
 import { useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ThemeToggle from "../components/ThemeToggle";
 
 const MasterLayout = ({ children }) => {
-    let pathname = useLocation();
+
     let [active, setActive] = useState(false)
     let [show, setShow] = useState(false)
     let dashboardControl = () => {

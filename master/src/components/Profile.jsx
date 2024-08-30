@@ -1,12 +1,7 @@
 
 import { useState } from "react";
-
 import { Link } from "react-router-dom";
 import Chart from "react-apexcharts";
-
-
-// const Chart = dynamic(() => import('react-apexcharts'), { ssr: false });
-
 const Profile = () => {
 
   const [activeButton, setActiveButton] = useState("grid-view");

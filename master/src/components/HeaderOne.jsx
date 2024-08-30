@@ -157,7 +157,7 @@ const HeaderOne = () => {
                   <ul className="nav-submenu">
                     <li className="nav-submenu__item">
                       <NavLink to="/blog" className="nav-submenu__link">
-                        {" "}
+
                         Blog
                       </NavLink>
                     </li>
@@ -210,7 +210,7 @@ const HeaderOne = () => {
               <div className="header-right__inner gap-3 flx-align d-lg-flex d-none">
                 <Link to="/register" className="btn btn-main pill">
                   <span className="icon-left icon">
-                    <img src="assets/images/icons/user.svg" alt="" />{" "}
+                    <img src="assets/images/icons/user.svg" alt="" />
                   </span>
                   Create Account
                 </Link>
@@ -276,13 +276,16 @@ const HeaderOne = () => {
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
 
-                    <NavLink to="/" className="nav-submenu__link">
-                      {" "}
+                    <NavLink to="/" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Home One
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/index-two" className="nav-submenu__link">
+                    <NavLink to="/index-two" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Home Two
                     </NavLink>
                   </li>
@@ -294,14 +297,18 @@ const HeaderOne = () => {
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <NavLink to="/all-product" className="nav-submenu__link">
+                    <NavLink to="/all-product" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       All Products
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
                     <NavLink
                       to="/product-details"
-                      className="nav-submenu__link"
+                      className={(navData) =>
+                        navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                      }
                     >
                       Product Details
                     </NavLink>
@@ -314,33 +321,45 @@ const HeaderOne = () => {
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <NavLink to="/profile" className="nav-submenu__link">
-                      {" "}
+                    <NavLink to="/profile" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
+
                       Profile
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/cart" className="nav-submenu__link">
+                    <NavLink to="/cart" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Shopping Cart
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/cart-personal" className="nav-submenu__link">
+                    <NavLink to="/cart-personal" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Mailing Address
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/cart-payment" className="nav-submenu__link">
+                    <NavLink to="/cart-payment" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Payment Method
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/cart-thank-you" className="nav-submenu__link">
+                    <NavLink to="/cart-thank-you" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Preview Order
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/dashboard" className="nav-submenu__link">
+                    <NavLink to="/dashboard" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Dashboard
                     </NavLink>
                   </li>
@@ -352,20 +371,26 @@ const HeaderOne = () => {
                 </Link>
                 <ul className="nav-submenu">
                   <li className="nav-submenu__item">
-                    <NavLink to="/blog" className="nav-submenu__link">
-                      {" "}
+                    <NavLink to="/blog" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
+
                       Blog
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
-                    <NavLink to="/blog-details" className="nav-submenu__link">
+                    <NavLink to="/blog-details" className={(navData) =>
+                      navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                    } >
                       Blog Details
                     </NavLink>
                   </li>
                   <li className="nav-submenu__item">
                     <NavLink
                       to="/blog-details-sidebar"
-                      className="nav-submenu__link"
+                      className={(navData) =>
+                        navData.isActive ? "nav-submenu__link activePage" : "nav-submenu__link"
+                      }
                     >
                       Blog Details Sidebar
                     </NavLink>
@@ -381,7 +406,7 @@ const HeaderOne = () => {
             <div className="header-right__inner d-lg-none my-3 gap-1 d-flex flx-align">
               <Link to="/register" className="btn btn-main pill">
                 <span className="icon-left icon">
-                  <img src="assets/images/icons/user.svg" alt="" />{" "}
+                  <img src="assets/images/icons/user.svg" alt="" />
                 </span>
                 Create Account
               </Link>

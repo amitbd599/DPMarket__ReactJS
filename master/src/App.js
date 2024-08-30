@@ -32,7 +32,7 @@ function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
-      <ScrollToTop smooth color="#E8092E" />
+      <ScrollToTop smooth color="#A847F0" />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/index-two" element={<HomePageTwo />} />
@@ -57,8 +57,6 @@ function App() {
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
         <Route exact path="/blog-details-sidebar" element={<BlogDetailsSidebarPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
-
-
 
         <Route exact path="/register" element={<RegisterPage />} />
         <Route exact path="/login" element={<LoginPage />} />
