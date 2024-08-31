@@ -42,7 +42,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #e8092e;
+  color: #246BFD;
 }
 ul,
 ol {
@@ -98,7 +98,7 @@ p {
   width: 250px;
   height: 100%;
   padding: 0px 20px;
-  border-right: 2px solid #e8092e;
+  border-right: 2px solid #246BFD;
   z-index: 10;
 }
 
@@ -302,7 +302,7 @@ p {
   margin-bottom: 10px;
   font-weight: 600;
   font-family: "Open Sans Condensed", sans-serif;
-  color: #e8092e;
+  color: #246BFD;
 }
 
 .introduction .sec-content h3 {
