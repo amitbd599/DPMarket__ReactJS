@@ -314,7 +314,7 @@ const BlogDetails = () => {
                           </div>
                           <a
                             className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
-                            to="#comment-box"
+                            href="#comment-box"
                           >
                             Reply
                             <span className="icon">
@@ -355,7 +355,7 @@ const BlogDetails = () => {
                               </div>
                               <a
                                 className="comment-list__reply fw-500 flx-align gap-2 hover-text-decoration-underline"
-                                to="#comment-box"
+                                href="#comment-box"
                               >
                                 Reply
                                 <span className="icon">
